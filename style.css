@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.chart-container{
+    margin: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+.balance-container{
+    display: flex;
+    background-color: hsl(10, 79%, 65%);
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#balance-text{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; /* to make the text align vertically */
+    gap: 10px;
+
+}
+
+#balance-title{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+#balance-value{
+    font-size: 24px;
+    font-weight: 700;
+}
